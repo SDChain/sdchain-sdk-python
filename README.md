@@ -21,12 +21,12 @@ SDK-APIS:
 |   4 | Wallet.getPaymentList(...);     | GET    : /v1/accounts/payments/{:address}                    | Y   |
 |   5 | Wallet.getPaymentInfo(...);     | GET    : /v1/accounts/payments/{:address}/{:hash}            | Y   |
 |   6 | Wallet.getTransactionList(...); | GET    : /v1/accounts/transactions/{:address}                | Y   |
-|   7 | Wallet.getTransactionInfo(...); | GET    : /v1/transactions/{:hash}                            | Y   |
+|   7 | Wallet.getTransactionInfo(...); | GET    : /v1/accounts/transactions/{:address}/{:hash}        | Y   |
 |   8 | Wallet.getOrderList(...);       | GET    : /v1/accounts/orders/{:address}                      | Y   |
 |   9 | Wallet.submitOrder(...);        | POST   : /v1/accounts/orders/{:address}                      | Y   |
 |  10 | Wallet.deleteOrder(...);        | DELETE : /v1/accounts/orders/{:address}/{:sequence}          | Y   |
 |  11 | Wallet.getOrderInfo(...);       | GET    : /v1/accounts/orders/{:address}/{:hash}              | Y   |
-|  12 | Server.getTransactionFee        | GET    : /v1/transaction-fee                                 | Y   |
+|  12 | Server.getTransactionFee();     | GET    : /v1/transaction-fee                                 | Y   |
 |  13 | Server.getInfo();               | GET    : /v1/server                                          | Y   |
 |  14 | Server.isConnected();           | GET    : /v1/server/connected                                | Y   |
 |     |                                 |                                                              |     |
